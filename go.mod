@@ -3,9 +3,10 @@ module hex
 go 1.15
 
 require (
-	github.com/Masterminds/squirrel v1.5.0
-	github.com/go-sql-driver/mysql v1.6.0
-	github.com/stretchr/testify v1.5.1
-	google.golang.org/grpc v1.37.0
-	google.golang.org/protobuf v1.26.0
+	github.com/kr/pretty v0.1.0 // indirect
+	github.com/labstack/echo/v4 v4.7.2
+	github.com/uptrace/bun v1.1.5
+	github.com/uptrace/bun/dialect/pgdialect v1.1.5
+	github.com/uptrace/bun/driver/pgdriver v1.1.5
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 )
